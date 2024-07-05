@@ -1,0 +1,41 @@
+body::before{
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+#navicons{
+	width: 35px;
+}
+
+.container .menuicon{
+    width: 30px;
+	padding-bottom: 5px;
+}
+
+.container h1{
+    background-color: rgb(236, 144, 77);
+	box-shadow: 3px 3px black;
+	letter-spacing: 2px;
+}
+
+.container ul li a{
+    text-align: center;
+	font-size: 13px;
+}
+
+.container ul li a:hover{
+    background-color: #1c975e;
+}
+
+#btnupd{
+	width: 60%;
+}
+
+.row label{
+	margin-left: 10px;
+}
+
+.bg-form{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 0px 0 rgba(0, 0, 0, 0.19);
+}

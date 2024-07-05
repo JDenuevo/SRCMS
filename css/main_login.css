@@ -1,0 +1,96 @@
+body::before{
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+form{
+    box-shadow: 10px 10px 0px 0 rgba(0, 0, 0, 0.2), 10px 10px 0px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+@media (max-width: 575.98px){
+    form{
+        width: 100%;
+    }
+    #giflogo{
+        display: none;
+    }
+}
+
+@media (max-width: 768.98px){
+    form{
+        width: 100%;
+    }
+    #giflogo{
+        display: none;
+    }
+}
+
+@media (max-width: 920.98px){
+    #giflogo{
+        width: 100%;
+    }
+}
+
+#navicons{
+    width: 35px;
+    filter: brightness(0) invert(1);
+}
+
+.container h2{
+    outline: 2px solid white;
+}
+
+#menuicon{
+    height: 30px;
+    padding-bottom: 5px;
+}
+
+.container ul li a{
+    text-align: center;
+}
+
+.container ul li a:hover{
+    background-color: #1c975e;
+}
+
+#btnLogin{
+    width: 100%;
+}
+
+#giflogo{
+    width: 55%;
+}
+
+#aboutlogo{
+    width: 20%;
+    filter: opacity(0.5) drop-shadow(0 0 0 green);
+}
+
+iframe{
+    width: 300px;
+    height: 300px;
+    outline: 1px solid green;
+    box-shadow: 10px 10px 0px 0 rgba(0, 0, 0, 0.2), 10px 10px 0px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 10px;
+}
+
+.line2{
+    border: 1px solid black;
+    width: 100%;
+}
+
+.line1{
+    border: 5px solid green;
+    border-radius: 5px;
+}
+
+.footer{
+	position: relative;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: white;
+	text-align: center;
+}

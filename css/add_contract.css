@@ -1,0 +1,98 @@
+body::before{
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+#tblaycon{
+	width: 25px;
+}
+
+#navicons{
+	width: 35px;
+}
+
+#btnadd{
+	width: 60%;
+}
+
+.container .menuicon{
+    width: 30px;
+	padding-bottom: 5px;
+}
+
+.container h1{
+    background-color: rgb(236, 144, 77);
+	box-shadow: 3px 3px black;
+	letter-spacing: 2px;
+}
+
+.container ul li a{
+    text-align: center;
+	font-size: 13px;
+}
+
+.container ul li a:hover{
+    background-color: #1c975e;
+}
+
+.bg-form{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 0px 0 rgba(0, 0, 0, 0.19);
+}
+
+.table{
+    padding: 5px;
+	color: rgb(0, 0, 0);
+    width: 100%;
+    
+}
+
+.table td{
+	width: 5%;
+	text-align: center;
+    outline: 1px solid gray;
+}
+
+/*Prev & Next ng Table(Bottom-Right)*/
+#table_paginate a
+{
+    color: rgb(0, 0, 0);
+    margin-right: 20px;
+    border-radius: 15px;
+}
+
+/*Label ng Search Table (Upper-Right)*/
+#table_filter label{
+	color:rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+/*Background Search ng Table (Upper-Right)*/
+#table_filter input{
+	color:rgb(0, 0, 0);
+    font-size: 15px;
+    margin-right: 20px;
+    border-radius: 15px;
+}
+
+/*Label ng Dropdown Entries ng Table (Upper-Left)*/
+#table_length label{
+	color: rgb(0, 0, 0);
+    font-size: 15px;
+    margin-left: 20px;		
+}
+
+/*Dropdown Entries ng Table (Upper-Left)*/
+#table_length select{
+	color: rgb(0, 0, 0);
+    font-size: 15px;
+    margin-left: 20px;		
+}
+
+/*Entries ng Table (Bottom-Left)*/
+#table_info.dataTables_info{
+	color: rgb(0, 0, 0);
+    font-size: 15px;
+    margin-left: 20px;	
+    padding-bottom: 20px;	
+}

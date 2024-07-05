@@ -1,0 +1,139 @@
+/*All icons*/
+
+#navicons{
+	width: 35px;
+}
+
+.container .menuicon{
+    width: 30px;
+	padding-bottom: 5px;
+}
+
+.container h1{
+    background-color: rgb(236, 144, 77);
+	box-shadow: 3px 3px black;
+	letter-spacing: 2px;
+}
+
+.container ul li a{
+    text-align: center;
+	font-size: 13px;
+}
+
+.container ul li a:hover{
+    background-color: #1c975e;
+}
+
+
+#print{
+    border-top: 1px solid black;
+    font-family: sans-serif;
+}
+
+img{
+    width: 120px;
+}
+
+.table{
+    padding: 5px;
+	color: rgb(0, 0, 0);
+    width: 100%;
+}
+
+.table td{
+	width: 5%;
+	text-align: center;
+    outline: 1px solid gray;
+}
+
+/*Breakdown & Print COE Headers*/
+#print-logo{
+    text-align: center;
+    display: flex;
+    flex-direction: row;         
+    flex-wrap: nowrap;        
+    justify-content: space-between;
+}
+
+#left-cal{
+    margin-left: 18px;
+    margin-top: 13px;
+}
+
+#mid-text{
+    width: 70%;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#mid-text h2{
+    font-size: 25px;
+}
+
+#mid-text label{
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: normal;
+}
+
+#right-ucc{
+    margin-right: 13px;
+}
+
+
+/*Print COE*/
+.line1{
+	border: 1px solid black;
+}
+
+.certificate-form h2{
+    letter-spacing: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+
+.bg-form{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 0px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+/*Print Service Record*/
+
+#left{
+    margin-top: 5px;
+    margin-left: 23px;
+}
+
+#right{
+    outline: 1px solid black;
+    color:#000;
+    height: 150px;
+    width: 150px;
+    margin-top: 5px;
+    margin-right: 15px;
+}
+
+#center{
+    margin-left: 5px;
+    width: 65%;
+}
+
+#example{
+    width: 80%;
+    overflow-x: auto;
+}
+
+#example th{
+    outline: 1px solid black;
+}
+
+#example td{
+    outline: 1px solid black;
+}
+
+
+#example label{
+    font-weight: bolder;
+}
+

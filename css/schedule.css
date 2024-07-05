@@ -1,0 +1,45 @@
+body::before{
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+#navicons{
+	width: 35px;
+}
+
+.container .menuicon{
+    width: 30px;
+	padding-bottom: 5px;
+}
+
+.container h1{
+    background-color: rgb(236, 144, 77);
+	box-shadow: 3px 3px black;
+	letter-spacing: 2px;
+}
+
+.container ul li a{
+    text-align: center;
+	font-size: 13px;
+}
+
+.container ul li a:hover{
+    background-color: #1c975e;
+}
+
+#calendar{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+}
+
+.btn-info.text-light:hover, 
+.btn-info.text-light:focus {
+    background: #000;
+}
+
+table, tbody, td, tfoot, th, thead, tr {
+    border-color: #000 !important;
+    border-style: solid;
+    border-width: 1px !important;
+}

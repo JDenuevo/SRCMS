@@ -1,0 +1,58 @@
+body::before{
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+#navicons{
+	width: 35px;
+}
+
+.container .menuicon{
+    width: 30px;
+	padding-bottom: 5px;
+}
+
+.container h1{
+    background-color: rgb(236, 144, 77);
+	box-shadow: 3px 3px black;
+	letter-spacing: 2px;
+}
+
+.container ul li a{
+    text-align: center;
+	font-size: 13px;
+}
+
+.container ul li a:hover{
+    background-color: #1c975e;
+}
+
+#ucclogoz{
+	width: 10%;
+}
+
+.line1{
+	border: 1px solid black;
+}
+
+#box{
+	width: 30%;
+}
+
+#count:hover{
+	outline: 1px solid rgb(173, 173, 173);
+	background-color: rgb(240, 240, 240);
+}
+
+@media (max-width: 575.98px){
+    #ucclogoz{
+        display: none;
+    }
+}
+
+@media (max-width: 768.98px){
+    #ucclogoz{
+        display: none;
+    }
+}
